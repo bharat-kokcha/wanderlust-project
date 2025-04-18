@@ -79,9 +79,11 @@ app.use("/listings/:id/reviews", reviewRouter);
 app.use("/", userRouter);
 
 // **Fixed 404 catch‑all: use "/*" not "*"**
-app.all("/*", (req, res, next) => {
+// Catch‑all 404 for any path
+app.use((req, res, next) => {
   next(new ExpressError(404, "Page Not Found"));
 });
+
 
 // Global error handler
 app.use((err, req, res, next) => {
