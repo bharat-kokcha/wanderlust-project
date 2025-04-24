@@ -80,17 +80,5 @@ https://wanderlust-f3ni.onrender.com
    node app.js
 The app will start on https://wanderlust-f3ni.onrender.com/ and redirect to /listings.
 
-------
-### Contributing
----
-1. Fork the repository
-
-2. Create a feature branch: git checkout -b feature/YourFeature
-
-3. Commit your changes: git commit -m "Add YourFeature"
-
-4. Push to your branch: git push origin feature/YourFeature
-
-5. Open a Pull Request
--------
+----
 
