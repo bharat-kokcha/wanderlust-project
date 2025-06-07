@@ -81,4 +81,16 @@ https://wanderlust-f3ni.onrender.com
 The app will start on https://wanderlust-f3ni.onrender.com/ and redirect to /listings.
 
 ----
+## 🤝 Collaborators
+
+- [@ApshCode03](https://github.com/ApshCode03) – Deployed the wanderlust on Render after resolving the backend issues like cloudinary image upload
+- [@Bharat-Kokcha](https://github.com/bharat-kokcha) – Backend, database setup, image upload
+
+## 🚀 My Contributions
+
+- Set up Cloudinary integration
+- Handled user registration and login routes
+- Connected the project to MongoDB Atlas
+- Wrote RESTful APIs for campgrounds
+
 
